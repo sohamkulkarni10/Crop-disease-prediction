@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop Disease Recognition</title>
+    <link rel="stylesheet" href="cdr5.css" />
+  </head>
+  <body class="front-page">
+    <header id="buttons">
+      <button onclick="showContent('home')">Home</button>
+      <button id="crop-button" onclick="showContent('crop')">
+        Crop Disease Recognition
+      </button>
+      <button onclick="showContent('history')">History</button>
+      <button onclick="showContent('Dashborad')">Dashborad</button>
+    </header>
+
+    <main>
+      <div class="front-page">
+        <img
+          src="{{ url_for('static', filename='crop3.jpeg') }}"
+          alt="crop first page"
+          id="front-crop"
+          width="1280px"
+          height="521px"
+        />
+
+        <h1 id="title" class="title">CROP DISEASE RECOGNITION</h1>
+      </div>
+      <div id="content" class="content"></div>
+    </main>
+
+    <script src="cdr7.js"></script>
+  </body>
+</html>
