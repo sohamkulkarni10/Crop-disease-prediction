@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,46 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# Crop Disease Prediction
+
+This project predicts crop diseases from leaf images using a fine-tuned VGG16 deep learning model.
+
+---
+
+### 🚀 Getting Started
+
+1. Clone this repository.
+2. Download the required model file below.
+3. Place it in the project root folder.
+4. Run `app2.py`.
+
+---
+
+### 🔗 Model Download
+
+Download the model file here:  
+👉 [vgg16_multi_class_model_fine_tuned.h5 (Google Drive)]# Crop Disease Prediction
+
+This project predicts crop diseases from leaf images using a fine-tuned VGG16 deep learning model.
+
+---
+
+### 🚀 Getting Started
+
+1. Clone this repository.
+2. Download the required model file below.
+3. Place it in the project root folder.
+4. Run `app2.py`.
+
+---
+
+### 🔗 Model Download
+
+Download the model file here:  
+👉 [vgg16_multi_class_model_fine_tuned.h5 (Google Drive)](https://drive.google.com/file/d/1xSdnUjcBFfY0emWcCKfxkoEqOW0i2VvR/view?usp=sharing)
+Place it in the **root project folder** before running the app.
+
+
+Place it in the **root project folder** before running the app.
+>>>>>>> e6686f86d23132a623818d95ff957a850066d380
